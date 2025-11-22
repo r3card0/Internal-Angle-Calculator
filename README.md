@@ -58,7 +58,7 @@ angle_calculation = InternalAngle(line1_wkt, line2_wkt, crs="EPSG:4326")
 
 ```python
 # Get the angle in degrees
-angle = angle_calcalculation.angle_between_lines()
+angle = angle_calculation.angle_between_lines()
 print(f"Internal angle: {angle:.2f}°")
 ```
 
@@ -77,7 +77,7 @@ if you have a dataset with multiple pairs of LineStrings:
 
 ```python
 import pandas as pd
-from internal_angle import InternalAngle
+from internal_angle_calculator import InternalAngle
 
 # Sample DataFrame
 data = {
@@ -108,17 +108,17 @@ print(df)
 
 ```python
 # Using WGS84 (lat/lon)
-angle_calcalulation = InternalAngle(line1_wkt, line2_wkt, crs="EPSG:4326")
+angle_calculation = InternalAngle(line1_wkt, line2_wkt, crs="EPSG:4326")
 ```
 
 **Projectes Coordinates (Planar Method)**
 
 ```python
 # Using UTM Zone 14N
-angle_calcalculation = InternalAngle(line1_wkt, line2_wkt, crs="EPSG:32614")
+angle_calculation = InternalAngle(line1_wkt, line2_wkt, crs="EPSG:32614")
 
 # Using Web Mercator
-angle_calcalculation = InternalAngle(line1_wkt, line2_wkt, crs="EPSG:3857")
+angle_calculation = InternalAngle(line1_wkt, line2_wkt, crs="EPSG:3857")
 ```
 
 ### Class Methods
