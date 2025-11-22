@@ -30,14 +30,49 @@ The `InternalAngle` class calculates the internal angle formed by two intersecti
 
 **Prerequisites**
 
-```bash
-pip install shapely pyproj
-```
+You can use this repository in two different ways:
 
-**Required Libraries**
+1. Clone the repository
 
-* `shapely` - Geometry handling
-* `pyproj` - Coordinate system transformations and geodesic calculations
+    Follows the steps below to clone and work directly with the source code
+
+    Clone repository
+    ```bash
+    git clone https://github.com/r3card0/Internal-Angle-Calculator.git
+    ```
+
+2. Install as a dependency
+
+    Alternatively, you can install this repository as a dependency within your own project:
+
+    1. Create a Python virtual environment
+
+        ```python
+        python3 -m venv <virtual_env_name>
+        ```
+
+    2. Activate virtual environment
+        
+        ```python
+        source <virtual_env_name>/bin/activate
+        ```
+
+    3. Install libraries `shapely and `pyproj`
+
+        ```bash
+        pip install shapely pyproj
+        ```
+
+        **Required Libraries**
+
+         * `shapely` - Geometry handling
+         * `pyproj` - Coordinate system transformations and geodesic calculations
+
+        and install repository as a dependency:
+
+        ```bash
+        pip install git+https://github.com/r3card0/Internal-Angle-Calculator.git@v0.1.0
+        ```
 
 **Basic Usage**
 
