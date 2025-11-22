@@ -31,23 +31,20 @@ The `InternalAngle` class calculates the internal angle formed by two intersecti
 **Prerequisites**
 
 ```bash
-pip install pandas geopandas shapely pyproj matplotlib
+pip install shapely pyproj
 ```
 
 **Required Libraries**
 
-* `pandas` - Data Manipulation
-* `geopandas` - Spatial data operations
 * `shapely` - Geometry handling
 * `pyproj` - Coordinate system transformations and geodesic calculations
-* `matplotlib` - Visualization (optional)
 
 **Basic Usage**
 
 ### 1. Initialize the Class
 
 ```python
-from internal_angle import InternalAngle
+from internal_angle_calculator import InternalAngle
 
 # WKT format LineString
 line1_wkt = "LINESTRING(-99.5 27.5, -99.4 27.6)"

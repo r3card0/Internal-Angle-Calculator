@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=65.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "internal-angle-calculator"
+version = "0.1.0"
+description = "Python class for calculating the internal angle between two intersecting LineStrings"
+readme = "README.md"
+requires-python = ">=3.10"
+
+authors = [
+    {name = "r3card0", email = "ricardo.rdz@protonmail.com"}
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
