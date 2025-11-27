@@ -57,10 +57,10 @@ You can use this repository in two different ways:
         source <virtual_env_name>/bin/activate
         ```
 
-    3. Install libraries `shapely and `pyproj`
+    3. Install libraries `shapely and `pyproj` with geopandas
 
         ```bash
-        pip install shapely pyproj
+        pip install geopandas
         ```
 
         **Required Libraries**
