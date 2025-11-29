@@ -2,3 +2,4 @@
 /venv_test
 /src/internal_angle_calculator/__pycache__
 /src/internal_angle_calculator.egg-info
+/result
